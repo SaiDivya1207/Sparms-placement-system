@@ -1,0 +1,106 @@
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:30px;
+}
+
+.topbar h2{
+  font-weight:700;
+  color:#0f172a;
+}
+
+.filter-btn{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:12px 22px;
+  border-radius:12px;
+  font-weight:600;
+}
+
+/* Search Bar */
+
+.search-bar{
+  background:white;
+  padding:15px 20px;
+  border-radius:15px;
+  margin-bottom:25px;
+  display:flex;
+  align-items:center;
+  box-shadow:0 6px 15px rgba(0,0,0,0.05);
+}
+
+.search-bar input{
+  border:none;
+  outline:none;
+  width:100%;
+  margin-left:10px;
+}
+
+/* Table */
+
+.table-container{
+  background:white;
+  border-radius:24px;
+  padding:25px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.06);
+}
+
+.table th{
+  color:#64748b;
+  font-weight:600;
+}
+
+.table td{
+  vertical-align:middle;
+}
+
+/* Status Badges */
+
+.status{
+  padding:7px 14px;
+  border-radius:10px;
+  font-size:13px;
+  font-weight:600;
+}
+
+.applied{
+  background:#dbeafe;
+  color:#2563eb;
+}
+
+.shortlisted{
+  background:#ffedd5;
+  color:#f97316;
+}
+
+.selected{
+  background:#dcfce7;
+  color:#16a34a;
+}
+
+.rejected{
+  background:#fee2e2;
+  color:#dc2626;
+}
+
+/* Buttons */
+
+.action-btn{
+  border:none;
+  padding:8px 14px;
+  border-radius:10px;
+  font-size:14px;
+  font-weight:600;
+}
+
+.view-btn{
+  background:#dbeafe;
+  color:#2563eb;
+}
+
+.reject-btn{
+  background:#fee2e2;
+  color:#dc2626;
+}
